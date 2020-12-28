@@ -6,7 +6,7 @@
 1. By default, Spring Boot use Tomcat as the default embedded server, to change it to Jetty, just exclude Tomcat and include Jetty like this
 
 2. Exclude tomcat from pom.xml file 
-   *spring-boot-starter-web
+    <!-- Tomcat embedded container to be removed -->
 
         <dependency>
 			<groupId>org.springframework.boot</groupId>
